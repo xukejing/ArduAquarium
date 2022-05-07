@@ -9,3 +9,5 @@ a fish tank controlled by Arduino
 臭氧自动定时，为了安全就没有做时间设置接口。固定8点和17点自动开始消毒，如果臭氧发生器流量大，需要改代码缩短时间。临时手动开启消毒20秒可以这样，“so20,”  
   
 控制参数会存入epprom，掉电后再启动会读取epprom，见eeprom put get。  
+
+最新版本在https://gitee.com/xukejing/ardu-aquarium
